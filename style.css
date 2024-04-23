@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    background: linear-gradient(#1354A5 0%, #041832 33.33%, #041832 66.67%, #01080E 100%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    font-family: 'Inter', sans-serif; 
+}
+
+body::before {
+    background-repeat: no-repeat;
+    background-position: right;
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px; 
+    height: auto;
+    min-height: 80%;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 24px;
+    border: 1px solid #1875E8;
+    box-shadow: 4px 4px 20px 0px rgba(1, 8, 14, 0.15);
+    background-image: url("img/Ruido.png");
+    background-size: 100% 100%;
+    position: relative;
+    padding: 20px; 
+}
+
+.container__conteudo {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+}
+
+.container__informacoes {
+    flex: 1;
+    padding: 0em;
+    text-align: center; 
+}
+
+.trofeu {
+    display: none;
+}
+
+.container__botao {
+    border-radius: 12px;
+    background: #1875E8;
+    padding: 16px 24px;
+    width: 100%; 
+    max-width: 200px; 
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 16px;
+    margin: 0 0.2em;
+    border: none;
+}
+
+.container__botao:hover {
+    background: #ffffff;
+    color: #1875E8;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; 
+}
+
+.input {
+    width: 100%;
+    padding: 0.5em .5em;
+    color: #0b356d;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 16px; 
+}
+
+.container__texto {
+    margin: 0px;
+}
+
+.container__imagem{
+    width: 145px;
+    height: 140px;
+}
+
+.texto_tentativa{
+    display: none;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 36px; 
+    margin: 10px; 
+}
+
+h2 {
+    font-size: 24px; 
+    margin-bottom: 16px; 
+}
+
+h3 {
+    font-family: 'Chakra Petch';
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 2px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 95%; 
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    h2 {
+        font-size: 20px; 
+    }
+}
