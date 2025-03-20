@@ -2,6 +2,8 @@
 
 Um jogo interativo onde o jogador precisa adivinhar um número secreto entre 1 e 100.
 
+*Veja o ste em: https://gcobof.github.io/JS---SecretNumber/*
+
 ## 📋 Descrição
 
 O Jogo da Adivinhação é um projeto web desenvolvido com HTML, CSS e JavaScript. O jogador tenta adivinhar um número aleatório entre 1 e 100, recebendo dicas se o número secreto é maior ou menor que o palpite dado. O jogo também conta com uma interface visual dinâmica que muda conforme o número de tentativas.
